@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c340d986-51eb-450c-a8b7-0fb2ab170e52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/misi/ro/Sum2nr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/misi/ro/Georgiana.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "PROIECT",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
