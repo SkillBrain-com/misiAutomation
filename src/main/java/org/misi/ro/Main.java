@@ -2,6 +2,11 @@ package org.misi.ro;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+public void add(){
+        System.out.println("add");
 }
+public void name (){
+    System.out.println("name");
+        }
 }
