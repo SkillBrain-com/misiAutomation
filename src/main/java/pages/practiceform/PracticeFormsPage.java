@@ -116,6 +116,4 @@ public class PracticeFormsPage extends BasePage {
     public void submit(){
         click(this.submit);
     }
-
-
 }
