@@ -12,6 +12,7 @@ public class Login {
     public Login(){
         loginPage =  new LoginPage();
     }
+
     @Given("Navigate to OrangeHRM")
     public void navigateToOrangeHRM() {
         loginPage.getDriver().get(ORANGE_HRM_URL);
@@ -21,6 +22,7 @@ public class Login {
     public void fillIn(String username) {
         loginPage.addUsername(username);
     }
+
     @Then("Add {}")
     public void add(String password) {
         loginPage.addPassword(password);
