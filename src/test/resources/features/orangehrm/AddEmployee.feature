@@ -1,4 +1,4 @@
-Feature: Login
+Feature: Add employee
   Scenario Outline: Check Add employee page
     Given Navigate to OrangeHRM
     And   Press PIM button
