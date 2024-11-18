@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class AddEmployeePage extends BasePage {
-    @FindBy(xpath ="//*[@id=\"app\"]/div[1]/div[1]/aside/nav/div[2]/ul/li[2]")
+    @FindBy(xpath ="//span[@class ='oxd-text oxd-text--span oxd-main-menu-item--name' and text()='PIM']")
     private WebElement pimButton;
     @FindBy(xpath ="//a[@class='oxd-topbar-body-nav-tab-item' and text()='Add Employee']")
     private WebElement addEmployeeButton;
