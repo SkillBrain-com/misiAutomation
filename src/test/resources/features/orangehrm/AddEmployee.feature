@@ -1,6 +1,7 @@
-Feature: Login
+Feature: Add employee
   Scenario Outline: Check Add employee page
     Given Navigate to OrangeHRM
+    And   Press expand menu button
     And   Press PIM button
     When  Press Add employee button
     Then  Insert first name <firstName>

@@ -11,6 +11,11 @@ public class AddEmployee {
         addEmployeePage =  new AddEmployeePage();
     }
 
+    @And("Press expand menu button")
+    public void pressExpandMenuButton() {
+        addEmployeePage.pressExpandMenu();
+    }
+
     @And("Press PIM button")
     public void pressPIMButton() {
         addEmployeePage.pressPim();

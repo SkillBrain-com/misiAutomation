@@ -6,8 +6,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class AddEmployeePage extends BasePage {
-    @FindBy(xpath ="//span[@class ='oxd-text oxd-text--span oxd-main-menu-item--name' and text()='PIM']")
+    @FindBy(xpath ="//i[@class='oxd-icon bi-chevron-right']")
+    private WebElement expandMenuButton;
+    @FindBy(xpath ="//li[position()=2 and @class='oxd-main-menu-item-wrapper']")
     private WebElement pimButton;
+    // @FindBy(xpath ="//*[@id=\"app\"]/div[1]/div[1]/aside/nav/div[2]/ul/li[2]/a/span")
+    // private WebElement pimButton;
+    // @FindBy(xpath ="//span[@class ='oxd-text oxd-text--span oxd-main-menu-item--name' and text()='PIM']")
+    // private WebElement pimButton;
     @FindBy(xpath ="//a[@class='oxd-topbar-body-nav-tab-item' and text()='Add Employee']")
     private WebElement addEmployeeButton;
     @FindBy(xpath ="//input[@name='firstName']")
@@ -16,14 +22,16 @@ public class AddEmployeePage extends BasePage {
     private WebElement middleName;
     @FindBy(xpath ="//input[@name='lastName']")
     private WebElement lastName;
-    @FindBy(xpath ="//input[@class='oxd-input oxd-input--active oxd-input--error']")
+    @FindBy(xpath ="//div[@class='oxd-grid-2 orangehrm-full-width-grid']//input[@class ='oxd-input oxd-input--active' ]")
     private WebElement employeeId;
     @FindBy(xpath ="//button[@type='submit']")
     private WebElement saveButton;
 
+    public void pressExpandMenu(){
+        click(expandMenuButton);
+    }
 
     public void pressPim(){
-        waitPage().until(ExpectedConditions.visibilityOf(this.pimButton));
         click(pimButton);
     }
 
