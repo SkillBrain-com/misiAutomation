@@ -5,10 +5,6 @@ P
  src/main/java/base/BasePage.java,a\3\a3820092b29fcde1a420c3b31f60024ca06bc539
 \
 ,src/main/java/base/CreateDriverInstance.java,c\4\c49cbd2a014a98ee00a32affa8335bdd111aaa1a
-R
-"src/main/java/pages/LoginPage.java,4\b\4bdc7fe650a4170fd3332cdfc4dca51f7507f98b
-m
-=src/test/java/com/serra/automation/stepsdefinition/Login.java,9\1\915b542c84a55fa149f17dda1efc61e9afcc922c
 m
 =src/test/java/com/serra/automation/stepsdefinition/Hooks.java,c\2\c28a21fea70653381eadcd0d99040f98160d586b
 i
@@ -16,20 +12,6 @@ i
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-u
-Esrc/test/java/com/serra/automation/stepsdefinition/PracticeForms.java,1\b\1b376c56563e2cc848ec8dea9f8c3f6ebf9602a4
-Z
-*src/main/java/pages/PracticeFormsPage.java,b\2\b2ce45b75f06e4fae5a269dcacd4acffae22fe36
-o
-?src/test/java/com/serra/automation/stepsdefinition/TestBox.java,a\f\afd273fc52b2e6e15982f1258932a13e1872b1c4
-T
-$src/main/java/pages/TestBoxPage.java,8\0\80c9eb8b865eed8904c9a49eca6fd3bcbf5661ff
-q
-Asrc/test/java/com/serra/automation/stepsdefinition/WebTables.java,c\9\c9247aa5a8378e40be191a7a97f720a62cfcb61c
-U
-%src/main/java/pages/WebTablePage.java,3\2\324023f1e4f65f66911abf33c08a9196dc57856c
-q
-Areports/PixelReport_ 12_Nov_24 19_43_18/Reports/Pixel_Report.html,b\0\b0bb8128dd01845181cd973ad9e4e851dfa2c0f2
 ~
 Nsrc/test/java/com/serra/automation/stepsdefinition/practiceform/WebTables.java,f\4\f4100304bdae935368a1f786be7107ec356b9214
 ‚
@@ -40,8 +22,6 @@ Jsrc/test/java/com/serra/automation/stepsdefinition/practiceform/Login.java,9\d
 Lsrc/test/java/com/serra/automation/stepsdefinition/practiceform/TestBox.java,1\1\1107ef8d8b23577ccc3b501318c4b5a07ea9ad53
 _
 /src/main/java/pages/practiceform/LoginPage.java,f\8\f82e6c7312ac8f9b052e113c0adc701c93072fea
-H
-src/test/java/Login.java,d\9\d9ed0dc2b32ccffe6540ee4aee6f0290bbe22c5a
 w
 Gsrc/test/java/com/serra/automation/stepsdefinition/orangehrm/Login.java,9\c\9c50db8df657f152acd7393725876b0151ca8e93
 \
@@ -54,3 +34,9 @@ g
 7src/main/java/pages/practiceform/PracticeFormsPage.java,8\9\8982bb04d92af6310ad8d55b9164826bdf845f46
 Q
 !src/main/java/base/Constants.java,1\4\14b87422a89904584dc705a89eec787b29327735
+]
+-src/main/java/pages/orangehrm/MyInfoPage.java,5\c\5cb07a037531aafda9503e5b28088c7f61487908
+„
+Tsrc/test/java/com/serra/automation/stepsdefinition/orangehrm/CommonStepsMethods.java,d\3\d319e7cda76c7b3ec6cc7d61c2c6a1c67ed66957
+x
+Hsrc/test/java/com/serra/automation/stepsdefinition/orangehrm/MyInfo.java,2\f\2faca07558e6172e531d63d387dfcd1e54a74b98
