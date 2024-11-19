@@ -21,18 +21,18 @@ public class MyInfo {
         myInfo.pressContactDetails();
     }
 
-    @Then("Street numberOne {}")
-    public void streetNumberOne(String streetOne) {
-        myInfo.completeStreet1(streetOne);
-    }
-
-    @Then("Street numberTwo {}")
-    public void streetNumberTwo(String streetTwo) {
-        myInfo.completeStreet2(streetTwo);
-    }
-
     @Then("Press Save button")
     public void pressSaveButton() {
         myInfo.pressSave();
+    }
+
+    @Then("create street number one {}")
+    public void createStreetNumberOne(String streetOne) {
+        myInfo.completeStreet1(streetOne);
+    }
+
+    @Then("create street number two {}")
+    public void createStreetNumberTwo(String streetTwo) {
+        myInfo.completeStreet2(streetTwo);
     }
 }

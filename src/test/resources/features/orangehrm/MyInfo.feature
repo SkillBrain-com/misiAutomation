@@ -5,10 +5,11 @@ Feature: May Info
     Then  Add <password>
     Then  Press Login button
     Then Press My Info
-    When Contact Details
-    Then Street numberOne <streetOne>
-    Then Street numberTwo <streetTwo>
-    Then Press Save button
+    Then Contact Details
+    Then create street number one <streetOne>
+    Then create street number two <streetTwo>
+
+
     Examples:
       | username | password | streetOne | streetTwo |
       | Admin    | admin123 | Bucuresti | Baneasa   |
