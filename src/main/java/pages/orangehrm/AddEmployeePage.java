@@ -8,12 +8,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 public class AddEmployeePage extends BasePage {
     @FindBy(xpath ="//i[@class='oxd-icon bi-chevron-right']")
     private WebElement expandMenuButton;
-    @FindBy(xpath ="//li[position()=2 and @class='oxd-main-menu-item-wrapper']")
-    private WebElement pimButton;
+    // @FindBy(xpath ="//li[position()=2 and @class='oxd-main-menu-item-wrapper']")
+    // private WebElement pimButton;
     // @FindBy(xpath ="//*[@id=\"app\"]/div[1]/div[1]/aside/nav/div[2]/ul/li[2]/a/span")
     // private WebElement pimButton;
-    // @FindBy(xpath ="//span[@class ='oxd-text oxd-text--span oxd-main-menu-item--name' and text()='PIM']")
-    // private WebElement pimButton;
+    @FindBy(xpath ="//span[@class ='oxd-text oxd-text--span oxd-main-menu-item--name' and text()='PIM']")
+    private WebElement pimButton;
     @FindBy(xpath ="//a[@class='oxd-topbar-body-nav-tab-item' and text()='Add Employee']")
     private WebElement addEmployeeButton;
     @FindBy(xpath ="//input[@name='firstName']")
